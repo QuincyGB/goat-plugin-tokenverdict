@@ -1,0 +1,60 @@
+{
+  "dependencies": {
+    "@goat-sdk/core": "^0.5.0",
+    "@goat-sdk/wallet-evm": "^0.3.0",
+    "@x402/evm": "^2.7.0",
+    "@x402/fetch": "^2.7.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.2.2",
+    "unplugin-swc": "^1.5.1",
+    "viem": "^2.23.4",
+    "vitest": "^2.1.9",
+    "@swc/core": "1.10.1"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "homepage": "https://github.com/QuincyGB/goat-plugin-tokenverdict",
+  "keywords": [
+    "ai",
+    "agents",
+    "web3",
+    "x402",
+    "token",
+    "risk",
+    "base"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "name": "@quincygb/goat-plugin-tokenverdict",
+  "peerDependencies": {
+    "@goat-sdk/core": "^0.5.0",
+    "@goat-sdk/wallet-evm": "^0.3.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf dist",
+    "test": "vitest run"
+  },
+  "sideEffects": false,
+  "types": "./dist/index.d.ts",
+  "version": "0.1.0",
+  "description": "GOAT SDK plugin for Token Verdict: pay-per-call token risk verdicts (SOLID, CAUTION, or DANGER) via x402 USDC payments on Base.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuincyGB/goat-plugin-tokenverdict.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QuincyGB/goat-plugin-tokenverdict/issues"
+  }
+}

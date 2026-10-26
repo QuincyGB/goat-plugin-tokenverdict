@@ -45,7 +45,7 @@
   },
   "sideEffects": false,
   "types": "./dist/index.d.ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "GOAT SDK plugin for Token Verdict: pay-per-call token risk verdicts (SOLID, CAUTION, or DANGER) via x402 USDC payments on Base.",
   "publishConfig": {
     "access": "public"
